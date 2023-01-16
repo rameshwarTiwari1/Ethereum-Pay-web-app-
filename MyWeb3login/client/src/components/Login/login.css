@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #0f0e13;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+  height: 125vh;
+}
+.error_msg {
+  width: 370px;
+  padding: 0px;
+  margin: 10px;
+  font-size: 16px;
+  /* background-color: #f34646; */
+  color: red;
+  /* border-radius: 50px; */
+  text-align: center;
+}
+
+.container {
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #eee; */
+}
+.Password-first {
+  width: 100%;
+  border-radius: 9px;
+  height: 45px;
+  padding-left: 30px;
+}
+.card {
+  height: 380px;
+  width: 350px;
+  background-color: transparent;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.text p {
+  font-size: 15px;
+  /* color: #bac4d4; */
+  font-weight: 500;
+}
+.input-text {
+  position: relative;
+  margin-top: 30px;
+}
+input[type="email"] {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  position: relative;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 35px;
+  outline: 0;
+  font-size: 15px;
+}
+input[type="password"] {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 35px;
+  position: relative;
+  padding-right: 27px;
+  outline: 0;
+  font-size: 15px;
+}
+input[type="text"] {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 35px;
+  position: relative;
+  padding-right: 27px;
+  outline: 0;
+  font-size: 15px;
+}
+.fa-envelope {
+  position: absolute;
+  left: 10px;
+  cursor: pointer;
+  top: 15px;
+}
+.fa-lock {
+  position: absolute;
+  left: 12px;
+  top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.input-text .fa-eye-slash {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa-eye {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  height: 45px;
+  width: 100%;
+  border: #026bfd;
+  border: 1px solid blue;
+
+  border-radius: 9px;
+  font-size: 17px;
+  outline: 0;
+
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.buttons button:hover {
+  background-color:#0663f8 ;
+}
+.forgot {
+  margin-top: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forgot a {
+  text-decoration: none;
+}
+.warning {
+  border: 1px solid red !important;
+}
+.type_password {
+  border: 1px solid red !important;
+  border: 1px solid red !important;
+  height: 45px;
+  width: 100%;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  outline: 0;
+  font-size: 15px;
+}
+.reset {
+  color: #54B4D3;
+}
+
+.EditContainer {
+  max-height: 60vh;
+}
+.card-shadow {
+  box-shadow: 0 15px 30px rgb(0 0 0 / 50%);
+}

@@ -1,0 +1,108 @@
+.card {
+  width: 350px;
+  padding: 10px;
+  /* border-radius: 20px; */
+  /* background: #fff; */
+  border: none;
+  height: 410px;
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+}
+
+.mobile-text {
+  /* color: rgb(223, 71, 71); */
+  font-size: 15px;
+}
+
+.form-control1 {
+  margin-right: 12px;
+  background-color: whitesmoke;
+  width: 60px;
+}
+
+.form-control:focus {
+  color: black;
+  font-weight: 600;
+  /* background-color: rgb(99, 192, 161); */
+  border-color: #ff8880;
+  outline: 0;
+  box-shadow: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.error_msg {
+  width: 370px;
+  padding: 0px;
+  margin: 10px;
+  font-size: 16px;
+  /* background-color: #f34646; */
+  color: red;
+  /* border-radius: 50px; */
+  text-align: center;
+}
+
+.partitioned {
+  /* letter-spacing: 12px; */
+  border: none;
+  text-align: center;
+  background-position: bottom;
+  outline: 0;
+  background-color: transparent;
+  color: white;
+  width: 50px;
+  border: 0;
+  border-bottom: 1px solid red;
+}
+
+.inputbox {
+  /* justify-content: space-between; */
+  margin: 10px;
+  color: white;
+}
+
+.error_msg {
+  width: 370px;
+  padding: 0px;
+  margin: 10px;
+  font-size: 16px;
+  /* background-color: #f34646; */
+  color: red;
+  /* border-radius: 50px; */
+  text-align: center;
+}
+
+/* *********************************************** */
+
+/* #partitioned {
+  padding-left: 0px;
+  letter-spacing: 38px;
+  border: 0;
+  background-image: linear-gradient(to left, rgb(241, 236, 236) 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  min-width: 220px;
+}
+
+#divInner{
+  left: 0;
+  position: sticky;
+}
+
+#divOuter{
+  width: 190px; 
+  overflow: hidden;
+} */
+
+.textdesign {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
